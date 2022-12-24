@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+       <item
+           android:id="@+id/home"
+           android:title="Home"
+
+        />
+       <item
+           android:id="@+id/reservations"
+           android:title="Reservations"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/item_sign_in"
+                    android:title="Sign In"/>
+
+                <item
+                    android:id="@+id/item_sign_up"
+                    android:title="Sign Up"/>
+
+                <item
+                    android:id="@+id/sign_out"
+                    android:title="Sign Out"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="contact us">
+            <menu>
+                <item
+                    android:id="@+id/about_us"
+                    android:title="About Us"/>
+                <item
+                    android:id="@+id/contact_us"
+                    android:title="Contact Us"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
